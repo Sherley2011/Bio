@@ -1,0 +1,12 @@
+{
+  "nikename":"本王饿了",
+  "headimgurl":"http://localhost:8080/headImg.jpg",
+  "number":"20160415",
+  "question": [
+    {
+      "photo": "http://localhost:8080/pic.jpg",
+      "title": "服务器标题",
+      "option": ["负荆请罪","完璧归赵","二桃杀三士","舌战群儒"]
+    }
+  ]
+}

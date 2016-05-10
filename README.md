@@ -1,8 +1,8 @@
-# ReactDemo
+# Bio
 
-## Install with npm and Bower
+## Install with npm
 ```sh
-sudo npm install
+sudo cnpm install
 ```
 
 ## Usage

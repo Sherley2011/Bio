@@ -1,0 +1,50 @@
+:local(.root) {
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .55);
+    &.loading-inactive {
+        display: none;
+        .loading-progress {
+            display: none
+        }
+    }
+    .loading-progress {
+        z-index: 2000;
+        position: fixed;
+        height: 10px;
+        width: 10px;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        &>.rotator {
+            left: -100px
+        }
+        .rotator {
+            -webkit-animation: spin 30s infinite linear;
+            -moz-animation: spin 30s infinite linear;
+            -o-animation: spin 30s infinite linear;
+            animation: spin 30s infinite linear
+        }
+    }
+    .rotator {
+        -webkit-background-origin: border-box;
+        -moz-background-origin: border-box;
+        background-origin: border-box;
+        background-color: #fff;
+        width: 200px;
+        height: 7px;
+        opacity: .75;
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+    .colored {
+        background-color: #2dc3e8!important
+    }
+}

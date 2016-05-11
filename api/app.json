@@ -1,0 +1,41 @@
+{
+  "appName":"BetterHR",
+  "mainNav": [
+    {
+      "id":"home",
+      "text":"工作台"
+    },
+    {
+      "id":"things",
+      "text":"内部事务"
+    },
+    {
+      "id":"solution",
+      "text":"解决方案"
+    },
+    {
+      "id":"market",
+      "text":"服务市场"
+    },
+    {
+      "id":"company",
+      "text":"企业中心",
+      "subNav":["company","organize","posts"]
+    },
+    {
+      "id":"setting",
+      "text":"系统设置"
+    }
+  ],
+  "subNav":{
+    "company":{
+      "text":"企业中心"
+    },
+    "organize":{
+      "text":"企业中心"
+    },
+    "posts":{
+      "text":"岗位管理"
+    }
+  }
+}

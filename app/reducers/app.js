@@ -1,11 +1,8 @@
 import {Map, fromJS} from 'immutable'
-import {TUSO_INFO_RECEIVED} from '../actions/wechatShare'
+import {APP_INFO} from '../actions/app'
 
 const initialState = fromJS({
-    "wechatShare": {
-
-    },
-    "tuso":{
+    "mainNav": {
 
     }
 }
@@ -13,7 +10,7 @@ const initialState = fromJS({
 
 export default (state = initialState, action) => {
     switch (action.type) {
-    	case TUSO_INFO_RECEIVED:
+    	case APP_INFO:
     		return fromJS(action.payload)
       default:
         return state
